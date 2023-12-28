@@ -225,6 +225,10 @@ const projects = [
         name: "tailwindcss",
         color: "blue-text-gradient",
       },
+      {
+        name: 'JWT tokens',
+        color: "green-text-gradient"
+      }
     ],
     image: marketplace,
     source_code_link: "https://github.com/ShakedGolan10/shiftable-app",
