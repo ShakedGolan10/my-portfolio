@@ -228,7 +228,11 @@ const projects = [
       {
         name: 'JWT tokens',
         color: "green-text-gradient"
-      }
+      },
+      {
+        name: "O.O.P",
+        color: "pink-text-gradient",
+      },
     ],
     image: marketplace,
     source_code_link: "https://github.com/ShakedGolan10/shiftable-app",
@@ -254,6 +258,14 @@ const projects = [
       {
         name: "SCSS",
         color: "blue-text-gradient",
+      },
+      {
+        name: "Socket.io",
+        color: "green-text-gradient",
+      },
+      {
+        name: "O.O.P",
+        color: "pink-text-gradient",
       },
     ],
     image: snapgram,
