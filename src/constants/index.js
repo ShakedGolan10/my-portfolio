@@ -235,7 +235,7 @@ const projects = [
     source_demo_link: "https://github.com/ShakedGolan10/shiftable-app",
   },
   {
-    name: "Instegram Clone (Still in development, co-developer in army)",
+    name: "Instegram Clone",
     description:
       "A social media app as Instagram, where you can share your photos, like posts , save posts , search for users on the explore and watch people profiles. also upload and watch stories!.",
     tags: [
@@ -258,7 +258,7 @@ const projects = [
     ],
     image: snapgram,
     source_code_link: "https://github.com/YuvalDavidov/instagram-clone",
-    source_demo_link: "https://github.com/YuvalDavidov/instagram-clone",
+    source_demo_link: "https://instagram-clone-7ir9.onrender.com",
   },
   {
     name: "Airtnt",
