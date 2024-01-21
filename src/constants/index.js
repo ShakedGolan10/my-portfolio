@@ -263,10 +263,6 @@ const projects = [
         name: "Socket.io",
         color: "green-text-gradient",
       },
-      {
-        name: "O.O.P",
-        color: "pink-text-gradient",
-      },
     ],
     image: snapgram,
     source_code_link: "https://github.com/YuvalDavidov/instagram-clone",
