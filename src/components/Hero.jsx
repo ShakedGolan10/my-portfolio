@@ -1,8 +1,6 @@
 import { motion } from 'framer-motion'
 
 import { styles } from '../styles'
-import { ComputersCanvas } from './canvas'
-import profile from '../assets/linkedin-profile.jpeg'
 
 const Hero = () => {
   return (

@@ -263,6 +263,10 @@ const projects = [
         name: "Socket.io",
         color: "green-text-gradient",
       },
+      {
+        name: "Sequelize ORM",
+        color: "green-text-gradient",
+      },
     ],
     image: snapgram,
     source_code_link: "https://github.com/YuvalDavidov/instagram-clone",
