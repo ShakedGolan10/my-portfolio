@@ -236,7 +236,7 @@ const projects = [
     ],
     image: marketplace,
     source_code_link: "https://github.com/ShakedGolan10/shiftable-app",
-    source_demo_link: "https://github.com/ShakedGolan10/shiftable-app",
+    source_demo_link: "https://shiftable-app.onrender.com/",
   },
   {
     name: "Picgram",
