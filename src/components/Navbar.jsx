@@ -29,6 +29,10 @@ const Navbar = () => {
               font-medium cursor-pointer`'>
             CV
           </a>
+          <a href={'https://github.com/ShakedGolan10'} className='text-secondary hover:text-white text-[18px]
+              font-medium cursor-pointer`'>
+            Github
+          </a>
           {navLinks.map(link => (
             <li key={link.id}
               className={`${active === link.title ?
