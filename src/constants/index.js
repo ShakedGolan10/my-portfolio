@@ -205,7 +205,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Shiftable (still in development)",
+    name: "Shiftable",
     description:
       "An app for shifts managment, and shifts application. As employee you can see who works with you, and the shifts of your co-workers! As employer you can use our algorithem to set new shifts based on application and preferene or you can adjust it menually.",
     tags: [
