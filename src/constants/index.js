@@ -14,14 +14,18 @@ import {
   git,
   meta,
   sql,
-  starbucks,
+  stealth,
   tesla,
+  restervation,
   shopify,
   sass,
   vue,
   someday,
   snapgram,
-  marketplace,
+  llm,
+  shiftable,
+  nestjs,
+  docker,
 } from "../assets";
 
 export const navLinks = [
@@ -83,10 +87,6 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -99,10 +99,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
+  {
+    name: "Docker",
+    icon: docker,
+  },
   {
     name: "git",
     icon: git,
@@ -115,63 +115,25 @@ const technologies = [
     name: "vue",
     icon: vue,
   },
-  // {
-  //   name: "angular",
-  //   icon: angular,
-  // },
+  {
+    name: "nest.js",
+    icon: nestjs,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full stack developer - Next.js",
+    company_name: "Siasol-eyes (stealth startup)",
+    icon: stealth,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "2023 - 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "• Incharge of improving dashboard features, adding crud operations to a canvas with image minupulation using react-leaflet library",
+      "• Build and deliver new features in advanced O.O.P design pattern with NextJS (React & Node.Js).",
+      "• I've learned and mastered the company's codebase after 1 month.",
+      "• Developed in agile and scalable environments with CI/CD and version control strict practices ",
+      "• Used OAuth 2.0 for secure connection and authentication"
     ],
   },
 ];
@@ -234,9 +196,73 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: marketplace,
+    image: shiftable,
     source_code_link: "https://github.com/ShakedGolan10/shiftable-app",
     source_demo_link: "https://shiftable-app.onrender.com/",
+  },
+  {
+    name: "Restervation",
+    description:
+      "The Restaurant Reservation System allows customers to make reservations for tables at a restaurant - an home assignment by stealth-startup",
+    tags: [
+      {
+        name: "react.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tyepscript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Nest.js",
+        color: "orange",
+      },
+      {
+        name: "mongoDB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MUI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: 'Redux',
+        color: "green-text-gradient"
+      },
+      {
+        name: "Mongoose/Typegoose",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: restervation,
+    source_code_link: "https://github.com/ShakedGolan10/restervation",
+    source_demo_link: "https://restervation.onrender.com/",
+  },
+  {
+    name: "Sense the voice",
+    description:
+      `Grammar Correction and Transcription Service! This Python-based server combines advanced speech-to-text transcription and grammar correction capabilities. 
+        You can upload an audio file along with its language, and the server will return the transcribed text and its corrected version.`,
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "transformers",
+        color: "green-text-gradient",
+      },
+      {
+        name: "fastapi",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "huggingface",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: llm,
+    source_code_link: "https://github.com/ShakedGolan10/SenseTheVoice"
   },
   {
     name: "Picgram",
@@ -246,6 +272,10 @@ const projects = [
       {
         name: "Vue.js",
         color: "blue-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "orange-text-gradient",
       },
       {
         name: "Postgre SQL",

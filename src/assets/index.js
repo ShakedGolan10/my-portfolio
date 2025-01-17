@@ -37,9 +37,15 @@ import resume from './resume.pdf'
 import jobsFinder from './JobsFinder.jpg'
 import snapgram from './snapgram.png'
 import travelapp from './travelapp.png'
-import marketplace from './marketplace.jpg'
+import shiftable from './shiftable.jpg'
+import nestjs from './nestjs.png'
+import docker from './docker.png'
+import stealth from './stealth.png'
+import restervation from './restervation.png'
+import llm from './llm.jpeg'
 
 export {
+  stealth,
   logo,
   backend,
   creator,
@@ -65,6 +71,7 @@ export {
   shopify,
   starbucks,
   tesla,
+  llm,
   sass,
   vue,
   angular,
@@ -76,5 +83,8 @@ export {
   resume,
   jobsFinder,
   travelapp,
-  marketplace,
+  shiftable,
+  nestjs,
+  docker,
+  restervation
 };
