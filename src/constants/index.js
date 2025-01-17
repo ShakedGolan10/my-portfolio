@@ -129,7 +129,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "2023 - 2024",
     points: [
-      "• Incharge of improving dashboard features, adding crud operations to a canvas with image minupulation using react-leaflet library",
+      "• Responsible for enhancing dashboard features and implementing CRUD operations on a canvas with image manipulation using the React-Leaflet library.",
       "• Build and deliver new features in advanced O.O.P design pattern with NextJS (React & Node.Js).",
       "• I've learned and mastered the company's codebase after 1 month.",
       "• Developed in agile and scalable environments with CI/CD and version control strict practices ",
