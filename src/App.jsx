@@ -20,7 +20,7 @@ const App = () => {
         <Works />
         <Tech />
         {/* <Feedbacks /> */}
-        <div className='full relative z-0'>
+        <div className='relative z-0'>
           <Contact />
           {/* <StarsCanvas /> */}
         </div>

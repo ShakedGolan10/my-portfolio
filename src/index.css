@@ -30,9 +30,18 @@
   .main-layout {
     grid-template-columns: 80px 1fr 80px;
   }
-
 }
 
+@media (max-width: 900px) {
+  .main-layout {
+    grid-template-columns: 20px 1fr 20px;
+  }
+
+  .main-layout>* {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
 
 .hash-span {
   margin-top: -100px;
