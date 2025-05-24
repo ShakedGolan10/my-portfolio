@@ -53,9 +53,8 @@ const About = () => {
       >
         experienced as a freelancer in building smooth, and responsive web applications
         and interfaces that emphasize scalable code, using the latest up-to-date Frameworks,
-        libraries, and Web technologies. I'm currently taking a course in advanced design patterns at Udemy, and I'm always looking to increase my knowledge.
+        libraries, and Web technologies. I'm currently taking a course in advanced design patterns at Udemy, and I'm always looking to gain more knowledge.
         Friendly and a good collaborator.
-        In search of my first job.
       </motion.p>
       <motion.a
         href={resume}

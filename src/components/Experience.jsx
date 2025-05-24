@@ -10,7 +10,7 @@ const ExperienceCard = ({ index, title, company_name,
     <motion.div className='w-full'>
       <div className='relatve w-full h-[230px]'>
         <img src={icon} alt={company_name}
-          className='w-full h-full object-cover rounded-2xl' />
+          className='w-full h-full object-contain rounded-2xl' />
       </div>
 
       <div className='mt-5'>

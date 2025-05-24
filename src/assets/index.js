@@ -41,10 +41,12 @@ import shiftable from './shiftable.jpg'
 import nestjs from './nestjs.png'
 import docker from './docker.png'
 import stealth from './stealth.png'
+import mindware from './mindware.jpeg'
 import restervation from './restervation.png'
 import llm from './llm.jpeg'
 
 export {
+  mindware,
   stealth,
   logo,
   backend,

@@ -26,6 +26,7 @@ import {
   shiftable,
   nestjs,
   docker,
+  mindware,
 } from "../assets";
 
 export const navLinks = [
@@ -127,13 +128,26 @@ const experiences = [
     company_name: "Siasol-eyes (stealth startup)",
     icon: stealth,
     iconBg: "#383E56",
-    date: "2023 - 2024",
+    date: "2024 - 2025",
     points: [
       "• Responsible for enhancing dashboard features and implementing CRUD operations on a canvas with image manipulation using the React-Leaflet library.",
       "• Build and deliver new features in advanced O.O.P design pattern with NextJS (React & Node.Js).",
       "• I've learned and mastered the company's codebase after 1 month.",
       "• Developed in agile and scalable environments with CI/CD and version control strict practices ",
       "• Used OAuth 2.0 for secure connection and authentication"
+    ],
+  },
+  {
+    title: "Frontend developer - Contracted",
+    company_name: "Mindware Ventures",
+    icon: mindware,
+    iconBg: "#383E56",
+    date: "2023 - 2024",
+    points: [
+      "• Collaborated with the company team lead to develop multiple ai powered apps.",
+      "• Contributed to the design of FineFix - a platform for assisting users in revoking parking fines.",
+      "• Worked with the most advanced web technologies such as Supabase and NestJS.",
+      "• Check it out - http://finefix.info.",
     ],
   },
 ];
@@ -199,44 +213,6 @@ const projects = [
     image: shiftable,
     source_code_link: "https://github.com/ShakedGolan10/shiftable-app",
     source_demo_link: "https://shiftable-app.onrender.com/",
-  },
-  {
-    name: "Restervation",
-    description:
-      "The Restaurant Reservation System allows customers to make reservations for tables at a restaurant - an home assignment by stealth-startup",
-    tags: [
-      {
-        name: "react.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tyepscript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Nest.js",
-        color: "orange",
-      },
-      {
-        name: "mongoDB",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "MUI",
-        color: "blue-text-gradient",
-      },
-      {
-        name: 'Redux',
-        color: "green-text-gradient"
-      },
-      {
-        name: "Mongoose/Typegoose",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: restervation,
-    source_code_link: "https://github.com/ShakedGolan10/restervation",
-    source_demo_link: "https://restervation.onrender.com/",
   },
   {
     name: "Sense the voice",
